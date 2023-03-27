@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell img {
+  height: 90px;
+  width: 90px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  flex-wrap: wrap;
+  background-image: url(./images/grassBackground.jpg);
+}
+
+#points {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 685px;
+}
+#gameButtons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+}
